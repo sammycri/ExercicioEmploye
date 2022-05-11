@@ -4,7 +4,7 @@ using System.Text;
 
 namespace ExercicioEmploye.Entities
 {
-    internal class Employee : List<Employee>
+    internal class Employee
     {
         public string Name { get; set; }
         public int Hours { get; set; }
